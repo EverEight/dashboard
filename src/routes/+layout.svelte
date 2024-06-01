@@ -1,7 +1,12 @@
 <script>
+	// Global CSS
 	import '../app.css';
+
+	// Theme Mode
+	import { ModeWatcher } from "mode-watcher";
 </script>
 
-<slot></slot>
+<ModeWatcher/>
+<slot/>
 
 <style></style>
