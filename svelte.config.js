@@ -13,7 +13,8 @@ const config = {
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
     alias: {
-      $ui: "./src/ui",
+      "$ui": "./src/ui",
+      "@typography": "./src/ui/typography",
     },
   },
 };
