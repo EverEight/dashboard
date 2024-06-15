@@ -1,3 +1,12 @@
-<p class="text-xl text-muted-foreground">
+<script lang="ts">
+  import { cn } from "$lib/utils";
+  import type { HTMLAttributes } from "svelte/elements";
+  type $$Props = HTMLAttributes<HTMLDivElement>;
+
+  let className: $$Props["class"] = undefined;
+  export { className as class };
+</script>
+
+<p class={cn("text-xl text-muted-foreground", className)}>
   <slot/>
 </p>
