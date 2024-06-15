@@ -7,4 +7,4 @@
   export { className as class };
 </script>
 
-<small class={cn("text-sm font-medium leading-none", className)}><slot/></small>
+<small class={cn("text-sm font-medium leading-none", className)}><slot /></small>

@@ -7,4 +7,4 @@
   export { className as class };
 </script>
 
-<div class={cn("text-lg font-semibold", className)}><slot/></div>
+<div class={cn("text-lg font-semibold", className)}><slot /></div>

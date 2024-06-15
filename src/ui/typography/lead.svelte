@@ -8,5 +8,5 @@
 </script>
 
 <p class={cn("text-xl text-muted-foreground", className)}>
-  <slot/>
+  <slot />
 </p>
